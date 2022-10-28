@@ -24,3 +24,5 @@ ax[0].set_ylabel('Fare')
 ax[0].set_xlabel('Pclass = 1')
 ax[1].set_xlabel('Pclass = 2')
 ax[2].set_xlabel('Pclass = 3')
+
+st.pyplot(fig)
